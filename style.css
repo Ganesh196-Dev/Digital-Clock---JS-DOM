@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background: url(img/Natural.jpg)no-repeat center center/ cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 40%;
+    height: 250px;
+    /* background-color: #fff; */
+    border-radius: 30px;
+    box-shadow: 0 0 10px #fff;
+    z-index: 2;
+}
+
+#timer {
+    width: 90%;
+    font-size: 72px;
+    color: #fff;
+    margin: 0px auto;
+    text-align: center;
+    padding: 35px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+button {
+    margin: 0 10px;
+    border: none;
+}
+
+button i {
+    font-size: 2rem;
+    padding: 10px;
+    color: #fff;
+    width: 50px;
+    /* border-radius: 10px; */
+    /* z-index: 2; */
+}
+
+#play {
+    background-color: green;
+}
+
+#pause {
+    background-color: orange;
+}
+
+#reset {
+    background-color: red;
+}
